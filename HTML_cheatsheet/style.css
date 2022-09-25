@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding : 0;
+
+}
+
+nav{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #272822;
+    color: white;
+    height : 86px;
+}
+
+.content{
+    font-family: 'Caveat', cursive;
+    font-size: larger;
+}
+
+.container{
+    /*background-color: red;*/
+    height: auto;
+    width : 83vw;
+    padding: 32px 0;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.logo{
+    padding : 0 13px ;
+}
+
+.logo img{
+    width : 32px;
+}
+
+
+.toolbar-item button{
+    cursor: pointer !important;
+    color: white !important;
+    border: 1px solid white !important;
+    border-radius: 15px !important;
+    padding: 5px 14px !important;
+}
